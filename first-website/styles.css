@@ -1,0 +1,28 @@
+p {
+  background-color: lightblue;
+  font-size: 40px;
+}
+
+a {
+  color: palevioletred;
+  cursor: cell;
+  text-decoration: underline;
+}
+
+a:hover {
+  color:darkgreen;
+  text-decoration: overline;
+}
+
+.special {
+  color: purple;
+  background-color: pink;
+  font-size: 60px;
+}
+
+.odd {
+  color: gold;
+  border: 3px dotted red;
+  padding: 20px;
+  font-size: 40px;
+}

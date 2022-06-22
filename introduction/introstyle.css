@@ -1,0 +1,67 @@
+.text {
+  cursor: text;
+}
+::selection {
+  background: olive;
+}
+h1 {
+  font-size: 40px;
+  font-family: courier;
+}
+ul {
+  font-size: 25px;
+  font-family: courier
+}
+p {
+  font-size: 25px;
+  font-family: courier
+}
+h2 {
+  font-size: 30px;
+  font-family: courier
+}
+.attheend {
+  font-size: 25px;
+  font-family: courier;
+  text-align: right;
+  margin-right: 50px;
+  margin-left: 75px;
+}
+.signoff{
+  font-size: 25px;
+  font-family: courier;
+  text-align: right;
+  color: olive;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.atthebeginning {
+  font-family: courier;
+  text-align: left;
+  margin-right: 75px;
+  margin-left: 50px;
+}
+section{
+  border:50px solid lightgrey;
+}
+img{
+  border-radius: 25px;
+  background: black
+  padding: 30px;
+  width: 700px;
+  border: 5px solid black;
+  margin-right:10px;
+  margin-left:25px;
+  margin-bottom:10px;
+}
+a:link {
+  color: darkgrey;
+  text-decoration: none;
+}
+a:visited{
+  color:white;
+}
+a:hover{
+  color:olive;
+  text-decoration:underline;
+}
