@@ -1,1 +1,29 @@
+* {
+  box-sizing:border-box;
+}
 
+body{
+  margin:0px;
+}
+
+.content{
+  background-color:palegreen;
+  width:200px;
+  height:200px;
+  padding: 30px;
+  border: 10px solid rgb(74, 103, 71);
+  margin:50px;
+}
+
+.border{
+  background-color:olive;
+  width:200px;
+  height:200px;
+  padding:30px;
+  border:10px solid rgb(203, 155, 191);
+  margin:50px;
+  box-sizing:border-box;
+  bottom:90px;
+  left:90px;
+  position: relative;
+}
