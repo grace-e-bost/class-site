@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: rgb(176, 194, 143);
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.item{
+  background: rgb(165, 147, 177);
+  color: white;
+  height: 80px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
