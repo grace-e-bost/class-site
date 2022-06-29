@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.container{
+  background:cadetblue;
+  height:100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.circle{
+  background:burlywood;
+  height:200px;
+  width:200px;
+  border-radius:50%;
+}
+
+
+.square{
+  background:burlywood;
+  height:200px;
+  width:200px;
+}
