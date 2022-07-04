@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background:burlywood;
+}
+
+img{
+  max-width: 500px;
+}
+
+p{
+  font-size:25px;
+  font-family: monospace;
+}
+
+.shapeshifter {
+  background:cornsilk;
+  width:100px;
+  height:100px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius:50%;
+  transition: transform 2s, ease-in-out border-radius 5s, background 7s;
+}
+
+.shapeshifter:hover{
+  background:sienna;
+  border-radius:0;
+  transform: translate(-25%,-25%) scale(2);
+  cursor:cell;
+}
+
+.revealer{
+  color:indianred;
+  font-style:italic;
+}
+
+.hidden{
+  position:absolute;
+  bottom:10px;
+  left:10px;
+  opacity: 0;
+}
+
+.revealer:hover + .hidden{
+  opacity: 1;
+}

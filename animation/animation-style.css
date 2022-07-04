@@ -4,6 +4,7 @@
 
 body{
   margin: 0;
+  overflow-x:hidden;
 }
 
 .container{
@@ -16,9 +17,11 @@ body{
 
 .circle{
   background:burlywood;
-  height:200px;
-  width:200px;
+  height:250px;
+  width:250px;
   border-radius:50%;
+  animation: pulse 2s infinite alternate ease-in-out;
+  position: relative;
 }
 
 
@@ -26,4 +29,40 @@ body{
   background:burlywood;
   height:200px;
   width:200px;
+  animation: spin 3s infinite linear;
+  position: relative;
+}
+
+.runner{
+  background:burlywood;
+  width:250px;
+  height:50px;
+  position: fixed;
+  bottom:0;
+  left:0;
+  animation: zoom 3s infinite;
+}
+
+@keyframes pulse {
+  0% {background:burlywood;
+    transform: scale(2)}
+  50% {background:olive;
+    transform:scale(1.5)}
+  100% {background:burlywood;
+    transform: scale(2)}
+}
+
+@keyframes spin {
+  0% {background:burlywood;
+    transform:rotate(0) scale(1)}
+  50% {transform: rotate(180deg) scale(2)}
+  100% {background:olive;
+    transform:rotate(360deg) scale(1)}
+}
+
+@keyframes zoom {
+  0%{ transform:translateX(-500px);
+  }
+  100%{ transform:translateX(105vw);
+  }
 }
