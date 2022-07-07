@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.sidebar{
+font-family: sans-serif;
+  width: 400px;
+  min-height: 500px;
+  background-color: lightslategray;
+  color: white;
+  font-size: 25px;
+  padding: 25px;
+  position: fixed;
+  top: 0;
+  right: -400px;
+  transition: .5s;
+}
+
+.active {
+  right:0
+}
+
+button {
+  background-color: mediumseagreen;
+  padding: 25px;
+  border: 1px solid darkgreen;
+  cursor: crosshair;
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color:lightseagreen;
+}

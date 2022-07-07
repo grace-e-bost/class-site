@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>javascript exercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="java.css">
+  </head>
+
+  <body>
+
+    <button onclick="toggle()">m e n u</button>
+
+    <div id="box" class="sidebar active">
+    <ul>
+      <li>frog</li>
+      <li>bee</li>
+      <li>mushroom</li>
+    </ul>
+    </div>
+
+
+    <script>
+    function toggle() {
+      var box = document.getElementById("box");
+      box.classList.toggle("active");
+    }
+    </script>
+
+  </body>
+</html>

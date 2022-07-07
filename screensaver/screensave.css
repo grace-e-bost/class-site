@@ -18,7 +18,6 @@ body{
 .circle-left3{
   height:90px;
   width:90px;
-  border-radius:50%;
   animation: pulse-left3 9s infinite alternate ease-in-out;
   position: relative;
 }
@@ -26,7 +25,6 @@ body{
 .circle-left2{
   height:95px;
   width:95px;
-  border-radius:50%;
   animation: pulse-left2 7s infinite alternate ease-in-out;
   position: relative;
 }
@@ -34,7 +32,6 @@ body{
 .circle-left1{
   height:100px;
   width:100px;
-  border-radius:50%;
   animation: pulse-left1 6s infinite alternate ease-in-out;
   position: relative;
 }
@@ -42,7 +39,6 @@ body{
 .circle-center{
   height:105px;
   width:105px;
-  border-radius:50%;
   animation: pulse-center 8s infinite alternate ease-in-out;
   position: relative;
 }
@@ -50,7 +46,6 @@ body{
 .circle-right1{
   height:100px;
   width:100px;
-  border-radius:50%;
   animation: pulse-right1 6s infinite alternate ease-in-out;
   position: relative;
 }
@@ -58,7 +53,6 @@ body{
 .circle-right2{
   height:95px;
   width:95px;
-  border-radius:50%;
   animation: pulse-right2 7s infinite alternate ease-in-out;
   position: relative;
 }
@@ -66,19 +60,8 @@ body{
 .circle-right3{
   height:90px;
   width:90px;
-  border-radius:50%;
   animation: pulse-right3 9s infinite alternate ease-in-out;
   position: relative;
-}
-
-.runner{
-  background:rgb(17, 51, 29);
-  width:200px;
-  height:10px;
-  position: fixed;
-  bottom:0;
-  left:0;
-  animation: zoom 7s infinite ease-in-out;
 }
 
 @keyframes background {
@@ -91,78 +74,91 @@ body{
 
 @keyframes pulse-left3 {
   0% {background:rgb(39, 41, 91);
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
   50% {background:teal;
     transform:scale(1.5);
-    opacity: 55%;}
+    opacity: 55%;
+    border-radius: 85%;}
   100% {background:rgb(39, 41, 91);
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
 }
 
 @keyframes pulse-left2 {
   0% {background:darkcyan;
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
   50% {background:teal;
     transform:scale(1.5);
-    opacity: 40%;}
+    opacity: 40%;
+    border-radius: 85%;}
   100% {background:darkcyan;
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
 }
 
 @keyframes pulse-left1 {
   0% {background:cadetblue;
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
   50% {background:teal;
     transform:scale(1.5);
-    opacity: 25%;}
+    opacity: 25%;
+    border-radius: 85%;}
   100% {background:cadetblue;
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
 }
 
 @keyframes pulse-center {
   0% {background:mediumaquamarine;
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
   50% {background:teal;
     transform:scale(1.5);
-    opacity: 20%;}
+    opacity: 20%;
+    border-radius: 85%;}
   100% {background:mediumaquamarine;
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
 }
 
 @keyframes pulse-right1 {
   0% {background:mediumseagreen;
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
   50% {background:teal;
     transform:scale(1.5);
-    opacity: 25%;}
+    opacity: 25%;
+    border-radius: 85%;}
   100% {background:mediumseagreen;
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
 }
 
 @keyframes pulse-right2 {
   0% {background:seagreen;
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
   50% {background:teal;
     transform:scale(1.5);
-    opacity: 40%;}
+    opacity: 40%;
+    border-radius: 85%;}
   100% {background:seagreen;
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
 }
 
 @keyframes pulse-right3 {
   0% {background:rgb(17, 51, 29);
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
   50% {background:teal;
     transform:scale(1.5);
-    opacity: 55%;}
+    opacity: 55%;
+    border-radius: 85%;}
   100% {background:rgb(17, 51, 29);
-    transform: scale(2)}
+    transform: scale(2);
+    border-radius:50%;}
 }
-
-@keyframes zoom {
-  0%{ transform:translateX(-400px);
-    background-color: rgb(17, 51, 29);
-  }
-  100%{ transform:translateX(110vw);
-    background-color: rgb(17, 30, 50)
-  }
