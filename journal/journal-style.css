@@ -5,6 +5,7 @@
 
 h1 {
   font-family:monospace;
+  text-align:center;
 }
 
 h2{
@@ -24,11 +25,33 @@ p{
   animation: fade 10s infinite;
 }
 
+.typewriter{
+  font-family: monospace;
+  overflow: hidden;
+  border-right: 4px solid #1a4e43;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 5px;
+  align-content: center;
+  animation: typing 7s steps(30, end), blink-caret .5s infinite ease-in-out;
+}
+
 @keyframes fade{
   0% {background-color: rgb(240, 235, 227); color: rgb(125, 157, 156);}
   50% {background-color: rgb(228, 220, 207); color:rgb(87, 111, 114);}
   100% {background-color: rgb(240, 235, 227); color: rgb(125, 157, 156);}
 }
+
+@keyframes typing{
+  0% {width: 0; text-align: center;}
+100% {width: 725px; text-align: center;}
+}
+
+@keyframes blink-caret{
+  0%, 100% {border-color: transparent;}
+  50% {border-color: #1a4e43;}
+}
+
 a {
   color: rgb(27, 94, 84);
 }

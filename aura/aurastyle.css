@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.container{
+  background-color: black;
+}
+
+.shape1{
+  z-index: 5;
+  position: fixed;
+  background-color: red;
+  color:red;
+  font-size:40px;
+  width: 800px;
+  height: 800px;
+  left:-240px;
+  bottom:-75px;
+  transform: rotate(20deg)
+}
+
+.shape2{
+  z-index: 4;
+  position: fixed;
+  background-color: red;
+  color:red;
+  font-size:40px;
+  width: 800px;
+  height: 800px;
+  right:-200px;
+  bottom:-400px;
+  transform: rotate(-20deg)
+}
+
+.shape3{
+  z-index: 3;
+  position: fixed;
+  background-color: red;
+  color:red;
+  font-size:25px;
+  width: 800px;
+  height: 400px;
+  right:-150px;
+  top:-150px;
+  transform: rotate(-15deg)
+}
+
+.shape1:hover{
+  background-color: white;
+  transform: translate(-25%,15%);
+  padding: 10px solid red;
+  cursor: cell;
+}
+
+.shape2:hover{
+  background-color:white;
+  border-radius:0;
+  padding: 10px solid red;
+  transform: translate(25%,-25%);
+  cursor:cell;
+}
+
+.shape3:hover{
+  background-color:white;
+  border-radius:0;
+  transform: translate(25%,-25%);
+  cursor:cell;
+}
+
+.help{
+  z-index: 2;
+  position: fixed;
+  font-size:45px;
+  font-family:serif;
+  color:rgb(33, 33, 33);
+  left:200px;
+  top:90px;
+  width: 25vw;
+}
+
+.help:hover{
+  color:black;
+  transform:scale(2)rotate(5deg);
+  text-shadow: 2px 2px 2px white;
+  left: 350px;
+  top:20px;
+}
+
+.anxiety{
+  z-index: 1;
+  position:fixed;
+  text-align: center;
+  color:rgb(33, 33, 33);
+  font-size:250px;
+  left:575px;
+  top:350px;
+}
+
+.anxiety:hover{
+  color:black;
+  text-shadow: 2px 2px 2px white;
+  transform: scale(2);
+
+}
