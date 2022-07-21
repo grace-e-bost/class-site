@@ -1,0 +1,85 @@
+body{
+  background-image: url("grid.png");
+  cursor: crosshair;
+}
+
+p {
+  position: absolute;
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px darkslategray;
+}
+
+a{
+  color: white;
+  text-shadow: 2px 2px darkslategray;
+  text-decoration: none;
+    cursor: text;
+}
+
+a: hover{
+  color: cadetblue;
+  text-shadow: 2px 2px white;
+  text-decoration: none;
+  cursor: text;
+}
+
+a: visited{
+  color: white;
+  text-shadow: 2px 2px darkslategray;
+  text-decoration: none;
+  cursor: text;
+}
+
+.ghost{
+  position: absolute;
+  width: 500px;
+}
+
+.brandt{
+  position: absolute;
+  width: 425px;
+  right: -50px;
+  bottom: 75px;
+}
+
+.jefferson {
+  position: absolute;
+  width: 640px;
+  left: 530px;
+  top: 75px;
+}
+
+.creek {
+  position: absolute;
+  bottom:30px;
+  left: 630px;
+  width: 450px;
+}
+
+.canal {
+  position: absolute;
+  left: 150px;
+  width: 320px;
+  bottom: 45px;
+}
+
+.falls{
+  position: absolute;
+  width: 500px;
+  right: -40px;
+}
+
+.fonticello{
+  position: absolute;
+  width: 750px;
+  left: 105vw;
+}
+
+.crane{
+  position: absolute;
+  width: 320px;
+  left: 120vw;
+  bottom: 5px
+}
