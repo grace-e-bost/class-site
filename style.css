@@ -1,14 +1,50 @@
 body {
   background-color: rgb(142, 154, 120);
+  font-family: monospace;
 }
 
 h1{
-  font-size: 40px;
+  font-size: 50px;
+  font-family: monospace;
+  text-align: right;
 }
+
+h2{
+  font-size: 35px;
+  font-family: monospace;
+}
+
 p {
   font-size: 24px;
+  font-family: monospace;
 }
 
 ul{
   font-size: 24px;
+  font-family: monospace;
+}
+.title{
+  text-align:right;
+}
+
+.total-container{
+}
+
+.row{
+}
+
+.row-item{
+}
+
+.blink{
+  font-family: monospace;
+  font-size: 30px;
+  text-align: right;
+  animation: blink 5s infinite;
+}
+
+@keyframes blink {
+  0% {color: black;}
+  50% {color: darkolivegreen;}
+  100% {color: black;}
 }
